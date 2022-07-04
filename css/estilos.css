@@ -2,6 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
 
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   background-color: hsl(233, 47%, 7%);
   font-family: "Inter", sans-serif;
   max-width: 1000px;
@@ -10,9 +14,7 @@ body {
 
 .card-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  justify-content: space-between;
   background-color: hsl(244, 38%, 16%);
   max-width: 1000px;
   border-radius: 8px;
